@@ -27,7 +27,7 @@ namespace Task2
             inFlyMode = true;
         }
 
-        public void land()
+        public void Land()
         {
             inFlyMode = false;
         }
@@ -36,6 +36,6 @@ namespace Task2
     public interface IMove
     {
         void TakeOf();
-        void land();
+        void Land();
     }  
 }

@@ -13,7 +13,7 @@ namespace Task2
             Airplane airplane = new Airplane(40, "phönix");
             airplane.TakeOf();
             Console.WriteLine("airplane {0} {1} have take of {2}", airplane.Name, airplane.Length, airplane.GetFlyStatus());
-            airplane.land();
+            airplane.Land();
             Console.WriteLine("airplane {0} {1} have take of {2}", airplane.Name, airplane.Length, airplane.GetFlyStatus());
             Console.ReadLine();
         }
